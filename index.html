@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sketch Pad</title>
+	<link rel="stylesheet" href="asst/style.css" type="text/css">
+	<script src="asst/jquery-1.12.3.min.js"></script>
+	<script src="asst/main.js"></script>
+</head>
+<body>
+	<header>
+		<h1>JQuery Sketch Pad Project <sub>soori</sub></h1>
+		<form action="#" method="get" id="controller">
+			<div class="setting">
+				<label for="size">Enter Grid Size:</label><br>
+				<input type="text" id="size" maxlength="70" value="20" name="size" type="number">
+			</div>
+
+			<div class="setting">
+				<label for="color">Select your Color:</label><br>
+				<select name="color" id="color">
+					<option value="red">Red</option>
+					<option value="green">Green</option>
+					<option value="blue">Blue</option>
+					<option value="colorful">Colorful</option>
+				</select>
+			</div>
+
+			<div class="setting">
+				<label for="type">Select your type:</label><br>
+				<select name="type" id="type">
+					<option value="simple">Simple</option>
+					<option value="trail">Trail</option>
+					<option value="opacity">Opacity</option>
+				</select>
+			</div>
+			<div class="clearboth"></div>
+			<br>
+			<button type="button" id="clearbtn">Clear</button>
+			<button type="button" id="startbtn">Start</button>
+		</form>
+	</header>
+	<div class="container">
+		<div class="info">
+			<p><span id="size_sketch">20*20</span> Grid | <span id="color_sketch">RED</span> | <span id="type_sketch">Simple</span></p>
+		</div>
+		<div class="sketch_pad">
+
+		</div>
+	</div>
+	<div class="clearboth"></div>
+</body>
+</html>
