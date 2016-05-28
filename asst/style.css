@@ -1,5 +1,9 @@
+/*General*/
 body{
 	font-family: sans-serif;
+}
+.clearboth{
+    clear: both;
 }
 header{
 	text-align: center;
@@ -17,6 +21,7 @@ header h1 sub{
 	padding: 5px;
 	color: #ffffff;
 }
+/*Form*/
 div.setting{
 	width:33.3%;
 	float: left; 
@@ -56,9 +61,7 @@ form button{
 form button:hover{
     opacity: 0.7;
 }
-.clearboth{
-	clear: both;
-}
+/*container*/
 .container{
     width: 960px;
     margin: auto;
@@ -113,6 +116,7 @@ form button:hover{
     box-sizing: border-box;
     cursor: pointer;
 }
+/*brush colors*/
 .r-color{
     background-color: #A7090C;
 }
