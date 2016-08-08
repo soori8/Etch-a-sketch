@@ -4,6 +4,8 @@ The idea of project is for [OdinProject](http://www.theodinproject.com/). and i 
 
 You can see the preview of project here on [Github](http://htmlpreview.github.io/?https://github.com/soori8/Etch-a-sketch/blob/master/index.html).
 
+![Preview Image](preview.png)
+
 Its a Sketch pad tools with these features:
 - You can change the grid system and size of the sketch pad
 - you change change the color of pen between RED, GREEN, BLUE, COLORFULL
